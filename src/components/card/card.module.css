@@ -1,0 +1,23 @@
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  margin: 30px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}

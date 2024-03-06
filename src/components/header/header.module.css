@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  padding: 25px;
+  border-bottom: 1px solid #7f7d7d;
+  background-color: #242424;
+}
+.header_logo {
+  padding: 0 20px 0 20px;
+}
+
+.header_search {
+  padding-left: 30px;
+
+  flex: 3;
+}
+
+.header_basket {
+  padding: 0 30px 0 50px;
+}
+
+.header_user {
+  padding: 0 30px 0 0;
+}
